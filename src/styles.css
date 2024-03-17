@@ -1,0 +1,141 @@
+/* Default styles for all screens */
+
+/* Medium-sized screens */
+@media (min-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .question-container {
+        padding: 30px;
+    }
+
+    .question_num {
+        font-size: 20px;
+    }
+
+    /* Additional styles for medium-sized screens */
+}
+
+/* Large-sized screens */
+@media (min-width: 1024px) {
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .question-container {
+        padding: 40px;
+    }
+
+    .question_num {
+        font-size: 24px;
+    }
+
+    /* Additional styles for large-sized screens */
+}
+
+/* Small-sized screens */
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .question-container {
+        padding: 20px;
+    }
+
+    .question_num {
+        font-size: 16px;
+    }
+}
+
+/* Default styles for all screens */
+
+/* Small-sized screens */
+@media (max-width: 767px) {
+    .option-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options {
+        margin-bottom: 10px;
+    }
+}
+
+body {
+    background-color: rgba(18, 15, 15, 0.971);
+    color: wheat;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    border: 5px solid wheat;
+    border-style: outset;
+}
+
+.title {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0.8;
+    padding-bottom: 5px;
+}
+
+.question {
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: wheat;
+    color: rgba(18, 15, 15, 0.971);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.question_num {
+    margin-top: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.options {
+    margin-bottom: 5px;
+    width: 80%;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.answers {
+    justify-content: center;
+}
+
+.footer {
+    width: 100px;
+}
+
+.score {
+    color: wheat;
+    padding: 10px;
+}
