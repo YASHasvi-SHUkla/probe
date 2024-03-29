@@ -80,7 +80,7 @@ const MCQ = () => {
                     <div className="option-container">
                         {currentQuestion.incorrect_answers
                             .concat(currentQuestion.correct_answer)
-                            .sort(() => Math.random() * 0.5)
+                            .sort(() => Math.random() - 0.5)
                             .map((option, index) => {
                                 const isCorrect = option === currentQuestion.correct_answer;
                                 const isSelected = selectedOption === option;
